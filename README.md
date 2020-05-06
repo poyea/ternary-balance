@@ -22,11 +22,11 @@ Python 3.8.2
 ```
 Set up a python environment:
 ```
-python -m venv ternary
+$ python -m venv ternary
 ```
 Install the requirement:
 ```
-pip install -r requirements.txt
+(ternary) $ pip install -r requirements.txt
 ```
 
 ## Usage
@@ -49,25 +49,25 @@ for _ in range(10):
 ## Run tests
 To run the doctests,
 ```
-$ cd ternary_balance/utils
-$ python numerics.py -v
+(ternary) $ cd ternary_balance/utils
+(ternary) $ python numerics.py -v
 ```
 
 ## Build the documentation
 To use Sphinx with Napoleon,
 ```
-$ cd docs
-$ sphinx-apidoc --version
+(ternary) $ cd docs
+(ternary) $ sphinx-apidoc --version
 sphinx-apidoc 3.0.3
-$ sphinx-apidoc -o . ..
-$ make html
+(ternary) $ sphinx-apidoc -o . ..
+(ternary) $ make html
 ```
 The documentation is available in `docs/_build`.
 
 ## Style
 To format the code, run
 ```
-$ black .
+(ternary) $ black .
 ```
 
 ## License

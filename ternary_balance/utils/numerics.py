@@ -3,6 +3,8 @@ from typing import List
 class numerics(object):
     """Numeric utilities for solving the problem.
     """
+
+    @staticmethod
     def plus_to_pos(original: List[int], position: int, k: int = 3) -> List[int]:
         """Recursive helper function to add one at a location of a list of (bit) integers
             representing a k-ary number.
@@ -39,7 +41,7 @@ class numerics(object):
             original = numerics.plus_to_pos(original, position + 1)
         return original
 
-
+    @staticmethod
     def dec_to_k(number: int, k: int = 3) -> List[int]:
         """Helper function to transform a decimal into a k-nary.
 
