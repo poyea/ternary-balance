@@ -6,6 +6,7 @@
   * [Usage](#usage)
   * [Run tests](#run-tests)
   * [Build the documentation](#build-the-documentation)
+  * [Style](#style)
   * [License](#license)
 
 
@@ -62,6 +63,12 @@ $ sphinx-apidoc -o . ..
 $ make html
 ```
 The documentation is available in `docs/_build`.
+
+## Style
+To format the code, run
+```
+$ black .
+```
 
 ## License
 MIT
