@@ -1,6 +1,8 @@
 # Ternary Balance System
 > Given an integer N, find a way to balance the integer with weights from the set {1, 3, 9, 27, ...}, i.e. the powers of 3.
-  
+
+![Ternary Balance](https://github.com/poyea/ternary-balance/workflows/Ternary%20Balance/badge.svg)
+
   * [Features](#features)
   * [Getting started](#getting-started)
   * [Usage](#usage)
